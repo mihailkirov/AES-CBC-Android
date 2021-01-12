@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FragmentsToDo</string>
+    <string name="Travail">Travail</string>
+    <string name="Sport">Sport</string>
+    <string name="Menage">Menage</string>
+    <string name="Lecture">Lecture</string>
+    <string name="Autre">Autre</string>
+    <string name="Courses">Courses</string>
+    <string name="Enfants">Enfants</string>
+    <string name="ListeTaches">Liste de Taches</string>
+    <string name="delete_message">DELETE</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="send">Send</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+</resources>

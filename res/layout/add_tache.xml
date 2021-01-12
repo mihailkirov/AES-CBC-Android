@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nom"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/nameTacheEdit"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="diree"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/dureeTacheEdit"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Categorie"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/categorie"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="openDiaog"
+            android:text="@string/Sport">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Description"
+            >
+        </TextView>
+
+        <EditText
+            android:id="@+id/descriptionTacheEdit"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:text="ok"
+            android:onClick="saveNewTache">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
